@@ -1,0 +1,47 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.7.2/darkly/bulmaswatch.min.css">
+</head>
+<nav class="level">
+  <div class="level-item level-left">
+    <h1 class="title is-1">Variables</h1>
+  </div>
+</nav>
+<p class="subtitle is-4"></p>
+<div class="container is-fluid">
+  <div class="tile is-ancestor">
+  <div class="tile is-vertical is-8">
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-primary">
+          <p class="title">What are they?</p>
+          <p class="subtitle">It depends...</p>
+          <div class="content">
+          <p>Variables are just placeholders (substitutes) for other values. If you repeat a certain value over and over, using a variable is an excellent way to mange potential changes to that value.</p>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">How do I use them?</p>
+          <p>Use the button to change the source of the following image</p>
+          <figure>
+            <img id="variableImageSource" src="https://placekitten.com/200/300" />
+          </figure>
+        </article>
+      </div>
+    </div>
+    
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child notification is-success">
+      <div class="content">
+        <p class="title">Try it out!</p>
+        <div class="content">
+          <button onClick="cycleImageSource()" class="button is-primary">Change the image source</button><br />
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+</div>
+<script src="script.js"></script>
